@@ -1,0 +1,75 @@
+.container {
+  display: grid;
+  grid-template-columns: 350px 200px 200px 200px;
+  grid-template-rows: 300px 300px;
+}
+
+
+.item1 {
+  background: rgb(123, 226, 128);
+  grid-column: span 1;
+  height: 150px;
+}
+
+.item2{
+  background: orange;
+  font-size: 20;
+  height: 150px;
+}
+
+.item3{
+  background-size: cover;
+  background-image: url("../images/bard.png");
+  grid-column: span 3;
+  height: 550px;
+  color: white;
+}   
+
+.item3:hover {
+  cursor: pointer; 
+  opacity: .5;
+}
+
+.item4:hover {
+  cursor: pointer; 
+  opacity: .5;
+}
+
+.item5:hover {
+  cursor: pointer; 
+  opacity: .5;
+}
+
+.item2:hover {
+  cursor: pointer; 
+  opacity: .5;
+}
+
+.item2,
+.item3,
+.item4,
+.item5{
+
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+.item4{
+  background: darkblue;
+  grid-column: span 1;
+  color: white;
+  text-align: center;
+}
+.item5{
+  background: darkblue;
+  grid-column: span 2;
+  color: white;
+  text-align: center;
+}
+.item7{
+  background: rgb(26, 26, 26);
+  grid-column: span 8;
+  height: 180px;
+  color: whitesmoke;
+  text-align: center;
+}
